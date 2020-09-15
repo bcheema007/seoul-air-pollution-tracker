@@ -2,7 +2,7 @@
 
 To get this working locally please follow these steps:
 
-1) Download the Measurement_summary.csv file from https://www.kaggle.com/bappekim/air-pollution-in-seoul/data#Measurement_summary.csv
+1) Download all the files in the repository. Then download the Measurement_summary.csv file from https://www.kaggle.com/bappekim/air-pollution-in-seoul/data#Measurement_summary.csv
 
 2) Run index.html on Live Server in Visual Studio IDE in order to test out the program.
 
