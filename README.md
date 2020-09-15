@@ -2,11 +2,11 @@
 
 To get this working locally please follow these steps:
 
-1) Download all the files in the repository. Then download the Measurement_summary.csv file from https://www.kaggle.com/bappekim/air-pollution-in-seoul/data#Measurement_summary.csv
+1) Create a new folder with a name of your choice and download all the files in the repository to that folder. Then download the Measurement_summary.csv file from https://www.kaggle.com/bappekim/air-pollution-in-seoul/data#Measurement_summary.csv and save it in the folder you created earlier.
 
-2) Run index.html on Live Server in Visual Studio IDE in order to test out the program.
+2) Open up index.html inside of the folder you created earlier.
 
-3) Click on the upload button for file and pick the .csv file you downloaded earlier in order to have the data extracted using Papa Parser.
+3) Click on the upload button for file and pick the .csv file you downloaded to the folder earlier in order to have the data extracted using Papa Parser.
 
 4) Enter two dates between 1/1/2017 to 7/28/2017, where the first date entered is the start date and the second date entered should be the end date in order for the data to be correctly filtered. 
 
