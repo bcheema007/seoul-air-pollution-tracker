@@ -145,13 +145,15 @@ function createLineSeries(data, val) {
     chart.data = chartData;
 
     // Create axes
-    var dateAxis = chart.xAxes.push(new am4charts.DateAxis());
+    let dateAxis = chart.xAxes.push(new am4charts.DateAxis());
     dateAxis.renderer.minGridDistance = 60;
+    dateAxis.title.text = "Measurement Date";
 
-    var valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
+    let valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
+    valueAxis.title.text = val + " PPM";
 
     // Create series
-    var series = chart.series.push(new am4charts.LineSeries());
+    let series = chart.series.push(new am4charts.LineSeries());
     series.dataFields.valueY = "value";
     series.dataFields.dateX = "date";
     series.tooltipText = "{value}";
