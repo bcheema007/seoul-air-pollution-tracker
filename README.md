@@ -6,7 +6,7 @@ To get this working locally please follow these steps:
 
 2) Run index.html on Live Server in Visual Studio IDE in order to test out the program.
 
-3) Click on the upload button for file and pick the recently named "msummary.csv" file in order to have the data extracted using Papa Parser.
+3) Click on the upload button for file and pick the .csv file you downloaded earlier in order to have the data extracted using Papa Parser.
 
 4) Enter two dates between 1/1/2017 to 7/28/2017, where the first date entered is the start date and the second date entered should be the end date in order for the data to be correctly filtered. 
 
